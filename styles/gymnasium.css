@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  }
+  header{
+     background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+  }
+  .header-width{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 190px;
+  }
+ nav>ul>li>a{
+   margin-left: 47px;
+   color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+text-decoration: none;
+
+  }
+  .nav-tittle{
+    color: #E6533C;
+font-family: Inter;
+font-size: 36px;
+font-style: italic;
+font-weight: 800;
+}
+.btn-primary{
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+border-radius: 46px;
+background: #E6533C;
+padding: 8px 20px;
+border-radius: 42px;
+border: 1px solid #E6533C;
+}
+.btn-secondary{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 46px;
+    padding: 8px 20px;
+    background-color: black;
+    border-radius: 42px;
+border: 1px solid #FFF;
+
+}
+.nav-browsers{
+    list-style:none;
+}
+.banner-headline{
+    color: #FFF;
+font-family: Inter;
+font-size: 78px;
+font-weight: 900;
+
+}
+.miama{
+    color: #FFF;
+ font-size: 78px;
+ font-family: Dancing Script;
+
+font-weight: 400;
+
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+.banner-content{
+width:598px;
+margin: 20px 87px 76px 190px;
+
+gap: 71px;
+}
+.card{
+    border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(10px);
+width: 150px;
+flex-shrink: 0;
+}
+.card-number{
+    color: #FFF;
+
+font-size: 40px;
+
+font-weight: 900;
+margin-top: 16px;
+margin-left: 24px;
+margin-bottom: 0px;
+}
+.card-description{
+    color: rgba(255, 255, 255, 0.65);
+
+font-size: 10px;
+
+font-weight: 300;
+align-items: center;
+margin-bottom: 16px;
+margin-left: 24px;
+margin-top: 0;
+}
+.banner-image{
+    width: 349px;
+
+flex-shrink: 0;
+
+
+}
+.banner-add{
+    display: flex;
+    
+
+   
+}
